@@ -406,3 +406,36 @@ body {
         padding: 20px;
     }
 }
+
+.seccionNovedades{
+    margin: 20px;
+    text-align: center;
+    
+    & .NovedadesFlex{
+        display: flex;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    & .novedadesNuevo{
+        background-color: rgb(37, 177, 202);
+        width: 60px;
+        border-radius: 5px;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    & .divNovedades{
+        background-color: rgb(230, 225, 225);
+        border-radius: 20px;
+        
+
+        & img{
+            padding-top: 10px;
+            width: 150px;
+            border-radius: 5px;
+        }
+    }
+
+}
