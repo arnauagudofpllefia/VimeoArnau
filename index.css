@@ -1,7 +1,7 @@
-@media(width < 720px) {
+@media(width < 740px) {
 
     body {
-        background-color: rgb(219, 217, 217);
+        background-color: rgb(255, 255, 255);
         font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -15,25 +15,33 @@
         align-items: center;
         position: fixed;
         background-color: white;
-        border-radius: 10px;
-        width: 650px;
+        border-radius: 5px;
+        width: 680px;
         opacity: 0.8;
-        z-index: 2;
+        z-index: 10;
+        height: 50px;
+
     }
+
+    .divHeader nav {
+        display: flex;
+    }
+
 
     .divHeader nav a {
         text-decoration: none;
         color: black;
         font-weight: bold;
         font-size: 20px;
-        padding: 10px;
+        padding-left: 30px;
     }
 
     .divRellenoHeader {
 
         height: 80px;
-        background-color: rgb(219, 217, 217);
+        background-color: rgb(255, 255, 255);
     }
+
 
     .video1 {
         position: relative;
@@ -556,7 +564,7 @@
 
 @media(width > 720px) {
     body {
-        background-color: rgb(219, 217, 217);
+        background-color: rgb(255, 255, 255);
         font-family: Arial, Helvetica, sans-serif;
         margin-left: 13%;
         margin-right: 15%;
@@ -568,14 +576,14 @@
 
     .divHeader {
         display: flex;
-        gap: 20px;
+        gap: 45px;
         align-items: center;
         position: fixed;
         background-color: white;
         border-radius: 10px;
         width: 1366px;
         opacity: 0.8;
-        z-index: 2;
+        z-index: 10;
     }
 
     .unirse {
@@ -588,13 +596,31 @@
         font-weight: bold;
         font-size: 20px;
         padding: 10px;
+
     }
+
+    .divHeader nav {
+        display: flex;
+    }
+
+    .btnUnirse {
+        border-radius: 10px;
+        background-color: rgb(214, 214, 214);
+        padding-top: 10px;
+
+    }
+
+    .btnUnirse:hover {
+        background-color: rgb(104, 200, 255);
+    }
+
+
 
     .divRellenoHeader {
-
         height: 80px;
-        background-color: rgb(219, 217, 217);
+        background-color: rgb(255, 255, 255);
     }
+
 
     .video1 {
         position: relative;
@@ -637,6 +663,10 @@
             cursor: pointer;
         }
 
+        & .btn1Video1:hover {
+            background-color: rgb(73, 147, 190);
+        }
+
         & .btn2Video1 {
             background: none;
             border: none;
@@ -677,6 +707,11 @@
             margin: 10px;
             padding: 10px;
             font-weight: bold;
+            cursor: pointer;
+        }
+
+        & .diseño2 button:hover {
+            background-color: rgb(73, 147, 190);
         }
     }
 
@@ -762,6 +797,12 @@
         border: none;
         border-radius: 10px;
         margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    .plataforma button:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(28, 42, 56);
     }
 
     .consultarFlex {
@@ -939,6 +980,11 @@
                 margin-left: 10px;
 
             }
+
+            & button:hover {
+                background-color: rgb(11, 25, 39);
+                color: white;
+            }
         }
 
         .seccionIaDespliege {
@@ -985,6 +1031,11 @@
             border-radius: 10px;
             margin-bottom: 20px;
 
+        }
+
+        & button:hover {
+            background-color: white;
+            color: rgb(23, 40, 58);
         }
 
         & .seguridadFlex {
@@ -1071,7 +1122,7 @@
             color: white;
         }
 
-        & :hover button {
+        & button:hover {
             background-color: white;
             color: black;
         }
@@ -1104,7 +1155,7 @@
         }
 
         & .divNovedades {
-            background-color: rgb(213, 221, 226);
+            background-color: rgb(228, 234, 238);
             border-radius: 20px;
             width: 500px;
 
@@ -1126,6 +1177,11 @@
                 border: none;
                 border-radius: 10px;
                 margin-bottom: 20px;
+            }
+
+            & button:hover {
+                background-color: rgb(228, 234, 238);
+                color: rgb(23, 40, 58);
             }
         }
 
@@ -1149,6 +1205,10 @@
                 text-align: left;
                 font-size: 1.2em;
             }
+
+            & button:hover {
+                background-color: rgb(11, 107, 145);
+            }
         }
 
         & .atencion {
@@ -1162,20 +1222,21 @@
                 text-align: left;
                 font-size: 1.2em;
             }
+
+            & button:hover {
+                background-color: rgb(2, 148, 206);
+            }
         }
     }
 
-    .footer{
+    .footer {
         display: flex;
         gap: 50px;
         margin-top: 50px;
 
-        & .footerProducto{
+        & .footerProducto {
             display: flex;
             gap: 30px;
         }
     }
 }
-
-
-
